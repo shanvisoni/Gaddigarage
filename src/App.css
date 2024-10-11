@@ -1,0 +1,7 @@
+.main-content {
+  background-image: url('./assest/front.jpg'); /* Replace with the actual path */
+  background-size: cover; /* Adjust to fit the entire area */
+  background-position: center; /* Center the image */
+  min-height: 100vh; /* Ensure it covers the viewport height */
+  padding: 20px; /* Optional: add some padding */
+}

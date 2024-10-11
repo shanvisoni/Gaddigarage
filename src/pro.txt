@@ -1,0 +1,20 @@
+// ProductCard.js
+
+import React from 'react';
+
+const ProductCard = ({ product }) => {
+  return (
+    <div className="bg-white rounded-lg shadow-md p-4">
+      <img
+        src={product.imageUrl}
+        alt={product.title}
+        className="w-full h-40 object-cover rounded-t-lg"
+      />
+      <h3 className="text-lg font-semibold mt-2">{product.title}</h3>
+      <p className="text-gray-600">{product.description}</p>
+      <p className="text-green-600 font-bold mt-2">${product.price}</p>
+    </div>
+  );
+};
+
+export default ProductCard;
